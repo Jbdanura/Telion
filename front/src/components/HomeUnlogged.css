@@ -1,0 +1,22 @@
+.homeUnlogged{
+    background-image: url("../images/homeUnlogged.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+}
+.homeUnlogged h1{
+    font-family: "Yatra One";
+    font-size: 80px;
+    background: -webkit-linear-gradient(rgb(255, 230, 0), rgb(255, 115, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+@media screen and (max-height: 800px) {
+    .homeUnlogged h1{
+        margin-top: 0;
+    }
+}

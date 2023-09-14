@@ -1,0 +1,82 @@
+.register,.login{
+    background-color: rgba(158, 112, 13, 0.747);
+    width: 30vw;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.register form,.login form{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.register input,.login input{
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: rgb(240, 240, 240);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 15px;
+    border: 2px solid rgb(110, 72, 1);
+    border-radius: 3px;
+    margin: 5px 0;
+    font-family: "Yatra One";
+    margin-bottom: 10px;
+}
+.register label, .login label{
+    font-family: "Yatra One";
+    font-size: 22px;
+    font-weight: bolder;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    color: rgb(241, 170, 36);
+}
+.register input:focus, .login input:focus{
+    border: 2px solid orange;
+    outline: none;
+}
+.register input::placeholder, .login input::placeholder{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: "Yatra One";
+    color: rgba(255, 255, 255, 0.664);
+}
+.autocomplete{
+    background-color: red;
+}
+.register-btn, .login-btn{
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color: rgb(168, 43, 12);
+    color: rgb(255, 206, 44);
+    font-weight: bolder;
+    font-size: 20px;
+    border: 1px solid rgb(99, 64, 0);
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-family: "Yatra One";
+}
+.register-btn:hover, .login-btn:hover{
+    cursor: pointer;
+}
+.register p, .login p{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.199);
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1200px) {
+    .register, .login{
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .register, .login{
+        width: 90vw;
+    }
+}
+@media screen and (max-height: 800px) {
+    .register, .login{
+        margin-top: -60px;
+    }
+}
