@@ -77,6 +77,18 @@
 }
 @media screen and (max-height: 800px) {
     .register, .login{
-        margin-top: -60px;
+        margin-top: -40px;
+    }
+    .register-btn, .login-btn{
+        font-size: 15px;
+    }
+    .register input,.login input{
+        font-size: 18px;
+    }
+    .register label, .login label{
+        font-size: 18px;
+    }
+    .register p, .login p{
+        font-size: 16px;
     }
 }
