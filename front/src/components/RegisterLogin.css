@@ -1,5 +1,5 @@
 .register,.login{
-    background-color: rgba(158, 112, 13, 0.747);
+    background-color: rgba(158, 112, 13, 0.836);
     width: 30vw;
     margin: 0 auto;
     padding: 20px 0;
@@ -9,6 +9,7 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    position: relative;
 }
 .register input,.login input{
     width: 90%;
@@ -64,6 +65,27 @@
     width: 60%;
     margin: 0 auto;
     margin-top: 10px;
+}
+.showErrorMessage, .hideErrorMessage, .showSuccessMessage, .hideSuccessMessage {
+    position: absolute;
+    top: -200%;
+    background-color: rgb(223, 83, 83);
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(175, 0, 0);
+    font-size: 23px;
+    width: 95%;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+.showSuccessMessage,.hideSuccessMessage{
+    background-color: rgb(53, 145, 53);
+}
+.showErrorMessage,.showSuccessMessage{
+    top: 10%;
+    transition:  all .5s ease-in-out;
+}
+.showSuccessMessage{
+    border: 1px solid green;
 }
 @media screen and (max-width: 1200px) {
     .register, .login{
